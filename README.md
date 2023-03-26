@@ -79,7 +79,7 @@ N = 1000;
 
 ## Gravitation
 
-Newtons law of gravity is a special case where $k = -2$ and $\mu = G M m$[^1]. In this case differential equation
+Newtons law of gravity is a special case where $k = -2$ and $\mu = G M m$[^1]. In this case the differential equation
 reduces to a linear ODE, which we can solve:
 
 $$
