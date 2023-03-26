@@ -89,8 +89,8 @@ $$
 \end{align}
 $$
 
-I have another script that computes the particular solution given initial conditions, without carring out the numerical
-integration of lsode.
+I have another [script](https://gist.github.com/SidhBhat/fdb6178252a29f58f185c923bf40b8f8) that computes the particular
+solution given initial conditions, without carring out the numerical integration of lsode.
 
 Here it is important to note that the trajectory calculated thus is valid when `M >> m`. This is because the central
 force does not take into account the movement of the certral body itself. In the script the value of `m` has absolutly no
@@ -113,8 +113,6 @@ Hook's orbit with centre being the elliptic centre:
 
 ![Hooks Orbit](/images/Hooks_Orbit.png)
 
-[^1]: $\mu$ must not be confused with the standard gravitational parameter $\mu = G M$
+[^1]: `mu` must not be confused with the standard gravitational parameter `mu = GM`
 [^2]: It can be shown that the force on each body in a two body system is also inversly propotional  
 to the distance to barycentre
-
-[def]: "
