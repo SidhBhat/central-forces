@@ -51,7 +51,7 @@ x = [0, 0.909];
 v = [2.5, 0];
 ```
 
-Than we have to set a constant of proprtion `mu` . By default this constant is configured for gravity
+Than we have to set the constant of proportion `mu` . By default this constant is configured for gravity
 but you can set it to any constant value.
 
 ```matlab
